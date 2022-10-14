@@ -17,12 +17,17 @@ body {
 
 .header {
   width: 80%;
-  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   margin: auto;
+}
+
+.img {
+  position: center center;
+  width: 100px;
+  height: 100%;
 }
 
 ul li {
@@ -72,7 +77,6 @@ a {
 .banner {
   color: white;
   width: 100%;
-  height: 60%;
   position: absolute;
   top: 25%;
   padding: 2%;
@@ -163,7 +167,7 @@ a {
 @media (max-width: 412px) {
   body {
     background: #26292e;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -172,16 +176,15 @@ a {
 
   .container {
     width: auto;
-    height: auto;
+    height: 100px;
     background: #26292e;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
 
   .header {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 
   ul li {
@@ -226,9 +229,7 @@ a {
   .banner {
     color: black;
     background: whitesmoke;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    width: auto;
     padding: 2%;
   }
 
@@ -271,7 +272,7 @@ a {
   }
 
   .app-txt p {
-    width: 20em;
+    width: 412px;
     height: auto;
     font-size: 15px;
     line-height: 20px;
@@ -299,8 +300,8 @@ a {
     background: #e39910;
     border: 2px solid white;
   }
-  /* 
-  .footer {
-    background: #26292e;
-  } */
+
+  .img {
+    padding: 10px;
+  }
 }
