@@ -1,0 +1,29 @@
+{
+    "employment": [
+    {
+        "company": "Guldfynd / Hallbergs Guld",
+        "jobTitle": "Photoredigerare",
+        "timeperiod": "2005"
+    },
+    {
+        "company": "Grand Hotel",
+        "jobTitle": "",
+        "timeperiod": "2008-2009"
+    },
+    {
+        "company": "AIK Fotboll",
+        "jobTitle": "Steward",
+        "timeperiod": "2008-2014" "2021-"
+    },
+    {
+        "company": "Vendator Contact Center",
+        "jobTitle": "Sales",
+        "timeperiod": "2011-2012"
+    },
+    {
+        "company": "ISS Facilities,",
+        "jobTitle": "Ticket Control / Service",
+        "timeperiod": "2013-"
+    }
+]
+}
