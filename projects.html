@@ -7,6 +7,7 @@
     <title>VSS Projects</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   </head>
   <body>
     <div class="container">
@@ -28,13 +29,26 @@
         <div class="app-txt">
           <p class="skills"></p>
             <h3><i class="fa-solid fa-list-check"></i>&nbsp;Projects</h3>
-            <ul>
-              <li>
-                <h4>Fullstack Javascript</h4>
-                <p>YH / Chas Academy</p>
-              </li>
-            </ul>
-                    
+            <div class="slide">
+              <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide"><img src="img/calc.jpg"></div>
+        <div class="swiper-slide"><img src="img/desk.jpeg"></div>
+        <div class="swiper-slide"><img src="img/VSProfil.jpg"></div>
+
+      </div>
+
+  <div class="swiper-pagination"></div>
+
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  
+</div>
+            </div>                  
       </div>
     </div>
 
@@ -57,6 +71,8 @@
       <a href="#youtube" class="youtube">   
       <i class="fa fa-youtube"></i>   
       </a>   
-      </div>   
+      </div> 
+      <script src="/js/app.js"></script>
+      <script></script>  
   </body>
 </html>

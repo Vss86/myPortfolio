@@ -107,7 +107,7 @@ a {
 
 .app-txt p {
   width: 400px;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   color: lightgray;
 }
@@ -152,57 +152,74 @@ a {
   border-radius: 1000px;
 }
 
+.slide {
+  width: 100%;
+  height: 50vh;
+  background: #1888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
 /* @media (max-width: 1000px) {
   .header {
     flex-direction: column;
     justify-content: space-between;
   }
 } */
-.stickyicon-list {   
-  position: fixed;   
-  top: 200px;   
+.stickyicon-list {
+  position: fixed;
+  top: 200px;
   transform: translateY(-50%);
-  
-  }         
-  .stickyicon-list a {   
-  display: block;   
-  text-align: center;   
-  padding: 8px;   
-  transition: all 0.5s ease;   
-  color: white;   
-  font-size: 20px;   
-  }         
-  /* HOver affect on sticky social media icons */   
-  .stickyicon-list a:hover {   
-  color: #000;   
-  width:10px;   
-  }   
-     
-  /* Now we have to design each icon of social media */         
-  .facebook {   
-  background: #3b5998;   
-  color: white;  
-  }         
-  .twitter {   
-  color: white;   
-  background: #00acee;   
-  }   
-  .linkedin {   
-  background: #0e76a8;   
-  color: white;   
-  }         
-  .google {   
-  color: white;   
-  background: #db4a39;   
-  }   
-  .instagram {   
-  background: #3f729b;   
-  color: white;   
-  }         
-  .youtube {   
-  color: white;   
-  background: #c4302b;    
-  }   
+}
+.stickyicon-list a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 20px;
+}
+/* HOver affect on sticky social media icons */
+.stickyicon-list a:hover {
+  color: #000;
+  width: 10px;
+}
+
+/* Now we have to design each icon of social media */
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+.twitter {
+  color: white;
+  background: #00acee;
+}
+.linkedin {
+  background: #0e76a8;
+  color: white;
+}
+.google {
+  color: white;
+  background: #db4a39;
+}
+.instagram {
+  background: #3f729b;
+  color: white;
+}
+.youtube {
+  color: white;
+  background: #c4302b;
+}
 @media (max-width: 412px) {
   body {
     background: #26292e;

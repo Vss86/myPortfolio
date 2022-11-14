@@ -14,5 +14,7 @@ async function getmyList() {
     for (let)
 
 
-  }
+  array.forEach(element => {
+	}
+});
 }
