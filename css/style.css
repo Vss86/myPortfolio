@@ -313,10 +313,8 @@ color: #e39910;
 /* HOver affect on sticky social media icons */
 .stickyicon-list a:hover {
   color: #000;
-  width: 10px;
 }
 
-/* Now we have to design each icon of social media */
 .facebook {
   background: #3b5998;
   color: white;
