@@ -1,4 +1,4 @@
-/* let url = "data.json";
+let url = "data.json";
 const myList = document.querySelector(".WorkExperience");
 
 async function getmyList() {
@@ -11,11 +11,11 @@ async function getmyList() {
     let myList = data.myList;
     console.log(typeof data);
 
-    for (let)
 
 
   }
-} */
+}
+
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
