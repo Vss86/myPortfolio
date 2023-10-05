@@ -1,1 +1,1 @@
-https://vss86.github.io/CV1/
+https://myvsportfolio.netlify.app/
