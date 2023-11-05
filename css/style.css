@@ -143,6 +143,7 @@ a {
   align-self: center;
   display: flex;
   flex-direction: row;
+  border-color: 22px #000;
 }
 
 .pictures img {
@@ -161,74 +162,28 @@ a {
 color: #e39910;
 }
 
-#myImg1 {
+#myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg1:hover {
+#myImg:hover {
   opacity: 0.7;
 }
 
-#myImg2 {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg2:hover {
-  opacity: 0.7;
-}
 
 .imgP {
   color: white;
   justify-self: baseline;
 }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+.footer {
+  background-color: #26292e; /* Choose a suitable color */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center align the content in the footer */
 }
 
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content,
-#caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
 
 @-webkit-keyframes zoom {
   from {
@@ -388,19 +343,21 @@ color: #e39910;
 
   .menubar .menu li a {
     margin: 0 20px;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 2px;
-    transition: all 0.5s;
+    transition: color 0.3s, font-weight 0.3s;
     background-color: #e39910;
     padding: 10px;
     border-radius: 20px;
     display: flex;
     margin: 5px;
   }
-
+  
   .menubar .menu li a:hover {
     color: black;
+    font-weight: bolder;
   }
+  
 
   .banner {
     color: black;
