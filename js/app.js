@@ -20,34 +20,39 @@ const getInfo = async () => {
 
 
 const populateCv = (cvObj) => {
-let employmentHtml = ``;
+  let employmentHtml = '';
 
-cvObj.employment.forEach(element => {
-  const listItem = `
-  <li>
-  <h4>${element.time}</h4>
-  <p>
-  <span>${element.location}</span><br>
-  <span>${element.jobTitle}</span>
+  cvObj.employment.forEach((element) => {
+    const listItem = `
+    <li>
+      <h4>${element.time}</h4>
+      <p>
+        <span>${element.location}</span><br>
+        <span>${element.jobTitle}</span>
+      </p>
+    </li>`;
 
-  </p>
-  </li>`;
+    employmentHtml += listItem;
+  });
 
-  employmentHtml +=listItem
-  console.log(cvObj.employment);
-});
-document.getElementById('employmentList').innerHTML = employmentHtml;
+  document.getElementById('employmentList').innerHTML = employmentHtml;
 
-let educationHtml = ``;
-cvObj.education.forEach(element => {
-  const listItem = `<li>${element}</li>`;
+  let educationHtml = '';
+  cvObj.education.forEach((element) => {
+    const listItem = `
+    <li>
+      <h4>${element.time}</h4>
+      <p>
+        <span>${element.school}</span><br>
+        <span>${element.subject}</span>
+      </p>
+    </li>`;
+    educationHtml += listItem;
+  });
 
-  educationHtml +=listItem
-  //console.log(cvObj.education);
-});
-
-document.getElementById('educationList').innerHTML = educationHtml;
+  document.getElementById('educationList').innerHTML = educationHtml;
 }
+
 
 /* let internshipsHtml = ``;
 cvObj.internships.forEach(element => {

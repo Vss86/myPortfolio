@@ -1,34 +1,41 @@
 {
     "employment": [
-    {
-        "location": "Guldfynd / Hallbergs Guld",
-        "jobTitle": "Photo editor",
-        "time": "2005"
-    },
-    {
-        "location": "Grand Hotel",
-        "jobTitle": "",
-        "time": "2008-2009"
-    },
-    {
-        "location": "AIK Fotboll / SVFF",
-        "jobTitle": "Steward",
-        "time": "2008-2014 / 2021-"
-    },
-    {
-        "location": "Vendator Contact Center",
-        "jobTitle": "Sales",
-        "time": "2011-2012"
-    },
-    {
-        "company": "ISS Facilities,",
-        "jobTitle": "Ticket Control / Service",
-        "time": "2013-"
-    }
-],
-
-"education": [
-    "2022 - Chas Academy YH"
-   
-]
+        {
+            "location": "Guldfynd / Hallbergs Guld",
+            "jobTitle": "Photo editor",
+            "time": "2005"
+        },
+        {
+            "location": "Grand Hotel",
+            "jobTitle": "",
+            "time": "2008-2009"
+        },
+        {
+            "location": "AIK Fotboll / SVFF",
+            "jobTitle": "Steward",
+            "time": "2008-2014 / 2021-"
+        },
+        {
+            "location": "Vendator Contact Center",
+            "jobTitle": "Sales",
+            "time": "2011-2012"
+        },
+        {
+            "location": "ISS Facilities",
+            "jobTitle": "Ticket Control / Service",
+            "time": "2013-"
+        }
+    ],
+    "education": [
+        {
+            "school": "Nacka Strand Media Gymnasium",
+            "time": "2002 - 2006",
+            "subject": "Grafisk Design / Fotografisk Bild"
+        },
+        {
+            "school": "Chas Academy YH",
+            "time": "2022 -",
+            "subject": "Fullstack JavaScript"
+        }
+        ]
 }
