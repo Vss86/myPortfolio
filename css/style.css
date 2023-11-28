@@ -149,10 +149,13 @@ a {
 .pictures img {
   width: 400px;
   height: 400px;
+  object-fit: contain;
+  background-color: white;
   margin: 1%;
   border: 5px solid black;
   border-radius: 1%;
 }
+
 
 .skills ul {
   line-height: 0.5;
