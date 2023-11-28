@@ -144,6 +144,8 @@ a {
   display: flex;
   flex-direction: row;
   border-color: 22px #000;
+	margin: auto; 
+	margin-top: 3rem; 
 }
 
 .pictures img {
